@@ -60,3 +60,7 @@ const eventSource = new EventSource('https://example.com/.well-known/mercure?top
     withCredentials: true
 });
 ```
+
+## Does Mercure contain a health check endpoint ?
+
+Yes, The hub contains a health check endpoint. You can target the URL `https://example.com/healthz` that will return an empty page with a HTTP 200 Response code
